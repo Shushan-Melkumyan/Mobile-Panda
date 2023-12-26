@@ -10,9 +10,10 @@ import { StepsDev, MobileStepsDev } from "./stepsDev";
 import { WeOnTelegram } from "./telegram";
 import { TrustUsComponent } from "./trustUsComponent";
 import { VideoConferences } from "./videoConferences";
-const mobile = window.innerWidth < 810;
 
 function App() {
+  const mobile = window.innerWidth < 810;
+
   return (
     <div className="App">
       {!mobile ? <Header /> : <MobileHeader />}
