@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+}
+
+.carouselContainer {
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: var(--WHITE);
+  width: 60px;
+  height: 60px;
+  background-color: var(--GRAY);
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  color: transparent;
+  border-radius: 50%;
+}
+
+.slick-next {
+  right: -6%;
+}
+
+.slick-prev {
+  left: -12%;
+}
+
+.slick-next:before {
+  content: url("./Vector\ 2.png");
+}
+.slick-prev:before {
+  content: url("./Vector.png");
+}
+
+.slick-dots li button:before {
+  color: var(--GRAY);
+  width: 10px;
+  height: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--PINK);
+  width: 10px;
+  height: 10px;
+}

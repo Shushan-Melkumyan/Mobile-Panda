@@ -1,0 +1,53 @@
+.priceSlidesContainer {
+  /* padding: 30px; */
+}
+.priceContent {
+  background-color: var(--GRAY);
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 30px;
+}
+.listContainer ul li {
+  align-items: baseline;
+}
+.listContainer ul li {
+  display: flex;
+  margin-bottom: 14px;
+}
+.listContainer ul li .checkMarks {
+  height: 11px;
+  width: 13px;
+  margin-right: 5px;
+}
+.shop {
+  font-size: 28px;
+  color: var(--WHITE);
+}
+.priceRange {
+  font-size: 20px;
+  color: var(--YELLOW);
+  margin-bottom: 34px;
+}
+
+.yourApp {
+  background-color: var(--GRAY);
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+@media all and (max-width: 810px) {
+  .yourApp {
+    flex-direction: column;
+  }
+  .btnContainer button {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .priceContent button {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}

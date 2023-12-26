@@ -1,0 +1,35 @@
+.heading {
+  margin-bottom: 60px;
+  color: var(--WHITE);
+}
+
+.titleContainers {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: var(--WHITE);
+}
+
+.subTitleContainers {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--WHITE);
+}
+
+@media all and (max-width: 810px) {
+  .heading {
+    margin-bottom: 30px;
+    color: var(--WHITE);
+  }
+
+  .titleContainers {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: var(--WHITE);
+  }
+
+  .subTitleContainers {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--WHITE);
+  }
+}

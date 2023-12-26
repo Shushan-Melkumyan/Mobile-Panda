@@ -1,0 +1,22 @@
+.aboutUsBox {
+  width: 23%;
+  width: 248px !important;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.aboutUsBox h3 {
+  margin: 0;
+  color: var(--PINK);
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.aboutUsBox p {
+  color: var(--WHITE);
+  font-size: 12px;
+  margin: 0 auto;
+  max-width: 208px;
+}

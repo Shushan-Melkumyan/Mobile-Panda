@@ -1,0 +1,47 @@
+.smallCycles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallRound {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ff005a;
+}
+.smallRound.left {
+  left: 5px;
+  box-shadow: 5px 0 5px rgba(255, 0, 90, 0.5);
+}
+.smallRound.right {
+  margin-right: 2px;
+  right: 5px;
+  box-shadow: -5px 0 5px rgba(255, 0, 90, 0.5);
+}
+.smallRound.right.vertical {
+  right: 5px;
+  box-shadow: -5px 0 5px rgba(255, 0, 90, 0.5);
+}
+@media all and (max-width: 1000px) {
+  .smallRound {
+    width: 3px;
+    height: 3px;
+  }
+  .roundcontent p {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 810px) {
+  .smallCycles {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .smallRound {
+    width: 6px;
+    height: 6px;
+  }
+  .roundcontent p {
+    font-size: 16px;
+  }
+}

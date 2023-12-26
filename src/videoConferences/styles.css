@@ -1,0 +1,122 @@
+.videoConferencesContainer {
+  background-color: var(--BLACK);
+  padding: 0 90px;
+}
+
+.connectionContent {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background-color: var(--GRAY);
+  padding: 90px 70px;
+  border-radius: 10px;
+}
+
+.left-side {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conectionHeader {
+  color: var(--YELLOW);
+  margin-bottom: 52px;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.left-side p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.subtitle {
+  color: var(--WHITE);
+  font-size: 16px;
+  font-weight: lighter;
+}
+.right-side {
+  max-width: 477px;
+  max-height: 408px;
+}
+
+.small-text {
+  font-size: smaller;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 31px;
+  margin-bottom: 21px;
+}
+.numberInput {
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 50px;
+  padding-left: 25px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.1);
+}
+.requiredFieldsText {
+  color: var(--WHITE);
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+}
+.custom-button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.bearImg {
+  width: 100%;
+  border-radius: 5px;
+}
+@media all and (max-width: 810px) {
+  .videoConferencesContainer {
+    background-color: var(--BLACK);
+    padding: 0 20px;
+    margin-top: 130px;
+  }
+  .inputContainer {
+    margin-top: 20px;
+  }
+  .connectionContent {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .conectionHeader {
+    font-size: 26px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .right-side {
+    max-width: 477px;
+    max-height: 472px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .right-side img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .telegConect h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  .telegConect p {
+    font-size: 16px;
+    margin-bottom: 34px;
+  }
+}

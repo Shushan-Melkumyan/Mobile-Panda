@@ -1,0 +1,16 @@
+.logo {
+  color: var(--WHITE);
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 101px;
+}
+
+.logo span {
+  margin-left: 22px;
+}
+
+@media all and (max-width: 810px) {
+  .logo {
+    font-size: 16px;
+  }
+}
